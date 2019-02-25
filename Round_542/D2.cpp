@@ -2,8 +2,8 @@
 using namespace std;
 
 int n, m;
-vector<int>vec[110];
-int ans[110];
+vector<int>vec[5010];
+int ans[5010];
 
 int dist(int a, int b) {
 	if (a == b)return 0;
